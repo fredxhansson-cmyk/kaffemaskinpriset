@@ -5,12 +5,12 @@ export default function Integritetspolicy() {
   return (
     <>
       <Head>
-        <title>Integritetspolicy — HEMguiden</title>
+        <title>Integritetspolicy — Hemguiden</title>
         <meta name="robots" content="noindex, follow" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
       </Head>
       <nav style={{ background:'#fff', borderBottom:'1px solid #e2e8f0', padding:'0 20px', height:60, display:'flex', alignItems:'center', fontFamily:'Inter,sans-serif' }}>
-        <Link href="/" style={{ fontWeight:800, fontSize:18, color:pc, textDecoration:'none' }}>HEMguiden</Link>
+        <Link href="/" style={{ fontWeight:800, fontSize:18, color:pc, textDecoration:'none' }}>Hemguiden</Link>
       </nav>
       <main style={{ maxWidth:760, margin:'0 auto', padding:'52px 20px', lineHeight:1.82, color:'#374151', fontFamily:'Inter,sans-serif' }}>
         <h1 style={{ fontSize:32, fontWeight:800, marginBottom:8, color:'#0f172a' }}>Integritetspolicy</h1>
