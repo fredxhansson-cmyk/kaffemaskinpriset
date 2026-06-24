@@ -2,14 +2,14 @@ import { ImageResponse } from 'next/og';
 export const config = { runtime: 'edge' };
 export default function OgImage(req) {
   const { searchParams } = new URL(req.url);
-  const title = searchParams.get('title') || 'HEMguiden';
+  const title = searchParams.get('title') || 'Hemguiden';
   const niche = searchParams.get('niche') || 'hem';
   const pc = '#0891b2';
   return new ImageResponse(
     <div style={{ width:1200, height:630, background:'linear-gradient(135deg,#f0f9ff 0%,#e8f4fd 60%,#f8fafc 100%)', display:'flex', flexDirection:'column', justifyContent:'center', padding:'72px 80px', fontFamily:'system-ui,sans-serif', position:'relative' }}>
       <div style={{ position:'absolute', top:0, left:0, right:0, height:8, background:pc }} />
       <div style={{ fontSize:16, fontWeight:700, color:pc, textTransform:'uppercase', letterSpacing:3, marginBottom:24 }}>
-        {niche} · HEMguiden
+        {niche} · Hemguiden
       </div>
       <div style={{ fontSize:62, fontWeight:800, lineHeight:1.12, color:'#0f172a', marginBottom:32, maxWidth:900 }}>
         {title}
