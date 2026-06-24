@@ -15,7 +15,7 @@ export default async function handler(req, res) {
       from: 'Kontaktformulär <onboarding@resend.dev>',
       to: toEmail,
       replyTo: email,
-      subject: 'Meddelande från ' + name + ' — HEMguiden',
+      subject: 'Meddelande från ' + name + ' — Hemguiden',
       html: '<p><b>Namn:</b> ' + name + '</p><p><b>E-post:</b> ' + email + '</p><p><b>Meddelande:</b></p><p>' + message.replace(/\n/g,'<br>') + '</p>',
     });
     res.json({ ok: true });
