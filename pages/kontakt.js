@@ -20,12 +20,12 @@ export default function Kontakt() {
   return (
     <>
       <Head>
-        <title>Kontakt — HEMguiden</title>
+        <title>Kontakt — Hemguiden</title>
         <meta name="robots" content="noindex, follow" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet"/>
       </Head>
       <nav style={{ background:'#fff', borderBottom:'1px solid #e2e8f0', padding:'0 20px', height:60, display:'flex', alignItems:'center', justifyContent:'space-between', position:'sticky', top:0, zIndex:100, fontFamily:'Inter,sans-serif' }}>
-        <Link href="/" style={{ fontWeight:800, fontSize:18, color:pc, textDecoration:'none' }}>HEMguiden</Link>
+        <Link href="/" style={{ fontWeight:800, fontSize:18, color:pc, textDecoration:'none' }}>Hemguiden</Link>
         <Link href="/" style={{ fontSize:14, color:'#64748b', textDecoration:'none' }}>← Tillbaka</Link>
       </nav>
       <main style={{ maxWidth:540, margin:'64px auto', padding:'0 20px', fontFamily:'Inter,sans-serif' }}>
